@@ -1,0 +1,27 @@
+/*
+Crear un novo proxecto denominado productsstream  que cree una clase denominada Product e una clase principal  tal como se describen a continuacion:
+
+a)Clase Product: debe ter tres variables privadas
+	 codigo   tipo String
+	 descricion tipo String
+	 prezo  tipo int
+O contructor por defecto introducira  cadeas nulas nas variables codigo e descricion e un cero no prezo.
+A clase debe ter outro constructor con pase de tres parametros (codigo, descricion e prezo)
+
+
+
+ Deben crearse os metodos necesarios para poder realizar as seguintes operacions sobres as tres variables 
+
+cambiar o codigo : setCodigo(String codigo)
+obter o codigo: getCodigo()
+cambiar a descricion setDescricion(String descricion)
+obter a descricion: getDescricion()
+cambiar o prezo : setPrezo(int prezo)
+obter o prezo: getPrezo()
+	
+b) Dende a  clase principal :
+1)crear un  obxecto da clase Product  denominado po1 cos argumentos: "cod1", "parafusos", 3 e outro de nome po2 cos argumentos: "cod2","arandelas",4
+2) gardar os valores dos productos   nun ficheiro denominado produtos.txt mediante os metodos adecuados de  DataOutputStream
+3)despois  crear un producto novo chamado po3 sen argumentos e cargar as suas variables a partires dos datos  dos productos que estan gardados  lendoos dende o ficheiro anterior mediante DataInputSream, imprimindo os valores de ditas productos
+
+ */
